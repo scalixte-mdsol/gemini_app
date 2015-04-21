@@ -22,6 +22,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'gemini', git: 'git@github.com:mdsol/gemini.git', branch: 'feature/create_generator_for_gemini'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

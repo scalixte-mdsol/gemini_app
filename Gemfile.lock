@@ -1,3 +1,13 @@
+GIT
+  remote: git@github.com:mdsol/gemini.git
+  revision: f60a9c07f608f0b30562cd14e1df64f18f66f0a3
+  branch: feature/create_generator_for_gemini
+  specs:
+    gemini (0.0.0)
+      i18n-js (~> 2.1)
+      i18n-missing_translations (~> 0.0)
+      rails (>= 3, < 5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -36,11 +46,15 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.9.1)
+    coffee-script-source (1.9.1.1)
     erubis (2.7.0)
     execjs (2.5.2)
     hike (1.2.3)
-    i18n (0.7.0)
+    i18n (0.6.11)
+    i18n-js (2.1.2)
+      i18n
+    i18n-missing_translations (0.0.2)
+      i18n (~> 0.6.0)
     journey (1.0.4)
     jquery-rails (3.1.2)
       railties (>= 3.0, < 5.0)
@@ -103,6 +117,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  gemini!
   jquery-rails
   rails (= 3.2.21)
   sass-rails (~> 3.2.3)
